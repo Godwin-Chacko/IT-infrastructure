@@ -26,16 +26,20 @@ All sites are interconnected via a **Frame Relay WAN** using Permanent Virtual C
 
 ## Network Diagrams
 
-Diagrams for each site (HQ floors 1–4, Montreal, Oshawa, and the Frame Relay topology) are included in the original project file: `it_infra.pdf`. Add exported diagram images here, e.g.:
+### HQ — Floors 1–4 (Production, Departments, Executive, IT)
+![HQ Network Diagram](diagrams/hq-floor1-4.png)
 
-```
-/diagrams
-  hq-floor1-4.png
-  montreal.png
-  oshawa.png
-  frame-relay.png
-  dmz-servers.png
-```
+### Montreal — Floor 1 (Production) & Floor 2 (Departments)
+![Montreal Network Diagram](diagrams/montreal.png)
+
+### Oshawa — Floor 1 (Production) & Floor 2 (Departments)
+![Oshawa Network Diagram](diagrams/oshawa.png)
+
+### Frame Relay Between HQ and the Branches
+![Frame Relay Diagram](diagrams/frame-relay.png)
+
+### DMZ & LAN Server Security
+![DMZ Server Security Diagram](diagrams/dmz-servers.png)
 
 ## 1. LAN Solutions Per Location
 
